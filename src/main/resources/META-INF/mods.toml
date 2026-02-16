@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="simpledrills_safebreak"
+version="1.0.0"
+displayName="Simple Drills Safe Break"
+description='''
+Prevents Simple Drills from breaking BlockEntity blocks (shulkers, modded containers, vehicles) to stop item loss.
+'''
+
+[[dependencies.simpledrills_safebreak]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="SERVER"
+
+[[dependencies.simpledrills_safebreak]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="SERVER"
